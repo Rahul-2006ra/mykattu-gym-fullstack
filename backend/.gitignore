@@ -1,0 +1,27 @@
+# =====================================================================
+# MYKATTU GYM — .gitignore
+# Files listed here are NEVER uploaded to GitHub automatically
+# =====================================================================
+
+# 🔐 SECRET FILES — never upload these
+.env
+*.pem
+*.key
+*.cert
+
+# 📊 Excel leads file — keep this private on your server
+mykattu_leads.xlsx
+
+# 📦 Node.js dependencies — auto-installed by npm install
+node_modules/
+package-lock.json
+
+# 🖥️ OS junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 📝 Log files
+*.log
+logs/
+npm-debug.log*

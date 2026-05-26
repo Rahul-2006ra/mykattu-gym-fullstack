@@ -1,0 +1,4 @@
+node_modules/
+.env
+*.log
+backend/mykattu_leads.xlsx
